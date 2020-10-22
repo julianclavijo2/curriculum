@@ -7378,6 +7378,7 @@ button.bg-dark:focus {
   right: 0;
   left: 0;
   z-index: 1030;
+  
 }
 
 .fixed-bottom {
@@ -10141,4 +10142,8 @@ section.resume-section .resume-section-content {
   padding: 14px;
   margin-bottom: 29px;
   box-shadow: 0 1px 13px #a09595;
+}
+
+h2{
+  font-size: 46px;
 }
