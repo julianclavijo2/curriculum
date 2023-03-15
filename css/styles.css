@@ -58,6 +58,12 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+#sideNav{
+  background-image: url("../assets/img/imgfondo.jpg");
+  background-size: cover;
+
+}
+
 body {
   margin: 0;
   font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -6097,9 +6103,14 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
-.bg-primary {
-  background-color: #2a315a  !important;
+
+
+.page-top{
   background-image: url("../assets/img/imgfondo.jpg");
+}
+.bg-primary {
+ 
+  
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6423,6 +6434,7 @@ button.bg-dark:focus {
   }
 }
 @media (min-width: 992px) {
+
   .d-lg-none {
     display: none !important;
   }
